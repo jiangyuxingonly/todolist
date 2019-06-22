@@ -69,13 +69,13 @@ window.addEventListener('load',function(){
             if(elem.status){
                 html+= `
                      <li id="${elem.id}">
-                        <input type="checkbox" checked="checked"><p>${elem.content}</p><span><a href="">❌</a></span><time>${elem.ctime}</time>
+                        <input type="checkbox" checked="checked"><p>${elem.content}</p><span>❌</span><time>${elem.ctime}</time>
                      </li>
                     `;
             }else{
                 html+= `
                      <li id="${elem.id}">
-                        <input type="checkbox"><p>${elem.content}</p> <span><a href="">❌</span></a><time>${elem.ctime}</time>
+                        <input type="checkbox"><p>${elem.content}</p> <span>❌</span><time>${elem.ctime}</time>
                      </li>
                     `;
             }
